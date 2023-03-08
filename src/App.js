@@ -8,6 +8,7 @@ import Achievements from './components/Achievements/Achievements';
 import Blog from './components/Blog/Blog';
 import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
+import ResetPassword from './components/Login/ResetPassword';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/blog' element={<Blog />}></Route>
         <Route path='/login' element={<Login />}></Route>
         <Route path='/signup' element={<Signup />}></Route>
+        <Route path='/resetpassword' element={<ResetPassword />}></Route>
      </Routes>
      {/* <Footer /> */}
     </>

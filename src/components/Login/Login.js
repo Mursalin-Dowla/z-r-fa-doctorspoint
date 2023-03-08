@@ -80,12 +80,12 @@ const handleGoogleSignIn =()=>{
                   placeholder="*************"
                 />
               </div>
-              {myError && <p>{myError}</p>}
+              {myError && <p className="text-red-600 text-xs">{myError}</p>}
               <div className="flex items-center justify-between">
               <input className='bg-red-400 md:text-lg mt-5 text-white w-[30%] md:w-[20%] mx-auto py-1 cursor-pointer hover:bg-red-600 rounded-md' type="submit" value="Login" />
                 <Link
                   className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800"
-                  href="#"
+                  to="/resetpassword"
                 >
                   Forgot Password?
                 </Link>
